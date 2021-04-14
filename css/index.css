@@ -1,6 +1,6 @@
 body {
     color: white;
-    background-image: url(/img/bg-mosaico.jpg);
+    background-image: url(../img/bg-mosaico.jpg);
     background-size: cover;
 }
 
@@ -34,7 +34,7 @@ body {
 /*HERO IMAGE*/
 
 .hero-image {
-    background-image: url('/img/hero-image.png');
+    background-image: url('../img/hero-image.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
