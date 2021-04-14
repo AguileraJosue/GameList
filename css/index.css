@@ -1,0 +1,90 @@
+body {
+    color: white;
+    background-image: url(/img/bg-mosaico.jpg);
+    background-size: cover;
+}
+
+
+/*NAVBAR*/
+
+.navbar {
+    padding-top: .9rem;
+    padding-bottom: .9rem;
+    position: sticky;
+    top: 0;
+}
+
+.elemento {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.btn-outline-success {
+    color: #f9fafb;
+    border-color: #f9fafb;
+}
+
+.btn-outline-success:hover {
+    color: black;
+    background-color: white;
+    border-color: black;
+}
+
+
+/*HERO IMAGE*/
+
+.hero-image {
+    background-image: url('/img/hero-image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.hero-image-opacity {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-image-title {
+    font-size: 5.5vw;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+
+/* FOOTER */
+
+.footer {
+    margin-top: 3rem;
+    padding: 20px;
+    color: white;
+    display: flex;
+    text-align: center;
+}
+
+.logo-footer {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.social {
+    text-align: right;
+    padding-top: 50px;
+}
+
+.social li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.social a {
+    text-decoration: none;
+    color: #ffffff;
+}
