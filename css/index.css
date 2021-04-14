@@ -71,6 +71,9 @@ body {
     opacity: 0.9;
 }
 
+
+/*MEDIA QUERY PARA TAMAÑO DE TEXTO DEL CARRUSEL SEGUN TAMAÑO DE PANTALLA*/
+
 @media (max-width: 777px) {
     .carousel-caption h3 {
         font-size: 100%;
