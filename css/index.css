@@ -105,6 +105,42 @@ body {
 }
 
 
+/* CARD */
+
+.tarjetas {
+    margin: 0;
+    text-align: center;
+}
+
+.tarjeta {
+    padding: 10px;
+    text-align: center;
+}
+
+.card {
+    width: 100%;
+}
+
+.card-body {
+    color: #000;
+}
+
+
+/* MEDIA QUERT TAMAÑO TARJETAS */
+
+@media (max-width: 768px) {
+    .carousel-caption h3 {
+        font-size: 50%;
+    }
+    .carousel-caption p {
+        font-size: 30%;
+    }
+    .texto-carrusel {
+        width: 50%;
+    }
+}
+
+
 /* FOOTER */
 
 .footer {
