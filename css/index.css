@@ -126,7 +126,7 @@ body {
 }
 
 
-/* MEDIA QUERT TAMAÑO TARJETAS */
+/* MEDIA QUERT TAMAÑO TEXTO CARRUSEL */
 
 @media (max-width: 768px) {
     .carousel-caption h3 {

@@ -74,14 +74,14 @@
     <br>
     <!-- CONTENIDO -->
     <section class="container">
-        <form action="" class="row g-3 needs-validation" novalidate>
+        <form name="contacto" action="https://formspree.io/f/moqyvwbr" method="post" class="row g-3 needs-validation" novalidate>
             <h1 style="text-align: center;">Formulario de Contacto</h1>
             <hr>
             <!-- Contacto -->
             <div class="col-lg-1"></div>
             <div class="col-lg-10" style="margin-top: 0; margin-bottom: 0;">
                 <label for="nombre" class="form-label">Nombre:</label>
-                <input type="name" class="form-control" id="nombre" placeholder="Ej: Juanita" required>
+                <input type="name" class="form-control" name="nombre" placeholder="Ej: Juanita" required>
                 <div class="valid-feedback">
                     ¡Lindo nombre!
                 </div>
@@ -93,7 +93,7 @@
             <div class="col-lg-1"></div>
             <div class="col-lg-10" style="margin-top: 0; margin-bottom: 0;">
                 <label for="email" class="form-label">Correo Electrónico:</label>
-                <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+                <input type="email" class="form-control" name="email" placeholder="name@example.com" required>
                 <div class="valid-feedback">
                     ¡El correo luce bien!
                 </div>
@@ -105,7 +105,7 @@
             <div class="col-lg-1"></div>
             <div class="col-lg-10" style="margin-top: 0; margin-bottom: 0;">
                 <label for="comentario" class="form-label">Ingrese su consulta:</label>
-                <textarea class="form-control" id="comentario" rows="3" style="min-height: 150px; max-height: 500px;" required></textarea>
+                <textarea class="form-control" name="comentario" rows="3" style="min-height: 150px; max-height: 500px;" required></textarea>
                 <div class="invalid-feedback">
                     ¡Rellene el campo!
                 </div>
